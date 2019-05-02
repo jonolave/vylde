@@ -2,6 +2,8 @@
 
 html, body {
     height: 100%;
+    position: fixed;
+    overflow: hidden; 
 }
 
 body {
@@ -11,4 +13,3 @@ body {
     /* This centers our sketch horizontally. */
     justify-content: center;
 }
-
