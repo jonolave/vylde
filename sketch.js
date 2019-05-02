@@ -36,11 +36,11 @@ function draw() {
     }
     // Middle piece: black or green
     if (mouseY > lastYpos) {
-      fill(color('#00866e'))
+      fill(color('#00866e'));
 
     } else {
       // Up: green
-      fill(color(10))
+      fill(color(0));
     }
 
     beginShape();
@@ -51,16 +51,16 @@ function draw() {
     endShape(CLOSE);
 
     // White
-    fill(color(255))
-    drawArea(1)
+    fill(color(255));
+    drawArea(1);
 
     // Black
-    fill(color(10))
-    drawArea(3)
+    fill(color(0));
+    drawArea(3);
 
     // White outer
-    fill(color(255))
-    drawArea(5)
+    fill(color(255));
+    drawArea(5);
 
   }
 
@@ -101,7 +101,6 @@ function reset() {
 
 function newTouchStarted() {
   aTouchStarted = true;
-  console.log("touchStarted function")
 }
 
 function saveImage() {
