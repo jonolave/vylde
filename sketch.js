@@ -92,7 +92,7 @@ function drawArea(startPoint) {
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
-  background(color(255));
+  // background(color(255));
 }
 
 function reset() {
