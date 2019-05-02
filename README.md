@@ -1,3 +1,3 @@
-# Din Vy
+# Lage ditt eget Vylde!
 
-https://jonolave.github.io/din-vy/
+https://jonolave.github.io/vylde/
