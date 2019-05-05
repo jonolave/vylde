@@ -14,10 +14,6 @@ function setup() {
   button.position(10, 10);
   button.mousePressed(reset);
 
-  saveButton = createButton('Lagre Vylde!');
-  saveButton.position(100, 10);
-  saveButton.mousePressed(saveImage);
-
   touchStarted = false;
 
   noStroke()
@@ -92,7 +88,6 @@ function drawArea(startPoint) {
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
-  // background(color(255));
 }
 
 function reset() {
@@ -101,9 +96,4 @@ function reset() {
 
 function newTouchStarted() {
   aTouchStarted = true;
-}
-
-function saveImage() {
-  let fullfilename = "vylde.png";
-  save(fullfilename);
 }
